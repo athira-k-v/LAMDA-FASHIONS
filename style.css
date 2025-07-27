@@ -445,3 +445,111 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* General image responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hero section responsiveness */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
+
+/* Grid responsiveness for category & product */
+@media (max-width: 768px) {
+  .category-grid,
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-grid,
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Top sellers */
+@media (max-width: 768px) {
+  .seller-item {
+    max-width: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .seller-item img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+/* Why Choose Us section */
+@media (max-width: 768px) {
+  .why-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .why-card {
+    max-width: 90%;
+    text-align: center;
+  }
+}
+
+/* Contact section responsiveness */
+@media (max-width: 768px) {
+  .contact-methods {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contact-box {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+/* Navbar responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+}
