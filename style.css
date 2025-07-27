@@ -52,9 +52,9 @@ a {
 } */
 
 
-
+/* https://i.pinimg.com/1200x/2a/bc/c1/2abcc1e5a8d70c9cac33017bbf40e491.jpg */
 .hero {
-  background-image: url('https://i.pinimg.com/1200x/2a/bc/c1/2abcc1e5a8d70c9cac33017bbf40e491.jpg'); /* Replace with your actual image path */
+  background-image: url('./img/Frame\ 82.png'); /* Replace with your actual image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,12 +83,12 @@ a {
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #d81b60;
 }
 
 .hero-text p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #333;
 }
 
@@ -552,4 +552,25 @@ img {
     width: 100%;
     gap: 10px;
   }
+}
+
+
+
+.buy-now-btn {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.buy-now-btn:hover {
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
